@@ -1,0 +1,24 @@
+ignores: [
+    # Dependencies that depcheck thinks are unused but are actually used
+    '@graphql-codegen/*',
+    '@commitlint/*',
+    '@uniswap/eslint-config',
+    'i18next',
+    'moti',
+    'wrangler',
+    'react-router',
+    # Dependencies that depcheck thinks are missing but are actually present or never used
+    '@yarnpkg/core',
+    '@yarnpkg/cli',
+    'clipanion',
+    '@yarnpkg/fslib',
+    'bufferutil',
+    'utf-8-validate',
+    '@yarnpkg/parsers',
+    '@yarnpkg/plugin-git',
+    'semver',
+    'typanion',
+    'turbo-ignore',
+    'prettier',
+    'prettier-plugin-organize-imports',
+  ]

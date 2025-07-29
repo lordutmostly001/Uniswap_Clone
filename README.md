@@ -13,5 +13,5 @@ This is an educational/development clone of the Uniswap interface with:
 ## Original Uniswap Interfaces
 
 - Original Web: [app.uniswap.org](https://app.uniswap.org)
-- Original Wallet: [wallet.uniswap.org](https://wallet.uniswap.org)p Labs: Front End Interfaces
+- Original Wallet: [wallet.uniswap.org](https://wallet.uniswap.org)
 

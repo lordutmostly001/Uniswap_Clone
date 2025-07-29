@@ -32,7 +32,7 @@ export function getSwapWarningFromError({
 
     // Map errorCode to Warning
     switch (error.data?.errorCode) {
-      case Err404.errorCode.QUOTE_AMOUNT_TOO_LOW_ERROR: {
+      case Err404.QUOTE_AMOUNT_TOO_LOW_ERROR: {
         return {
           type: WarningLabel.EnterLargerAmount,
           severity: WarningSeverity.Low,
@@ -42,7 +42,7 @@ export function getSwapWarningFromError({
         }
       }
 
-      case Err404.errorCode.RESOURCE_NOT_FOUND: {
+      case Err404.RESOURCE_NOT_FOUND: {
         if (isBridgeTrade) {
           return {
             type: WarningLabel.NoQuotesFound,
